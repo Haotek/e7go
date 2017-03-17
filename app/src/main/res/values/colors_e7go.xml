@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/free_speech_blue</color>
+    <color name="colorPrimaryDark">@color/tory_blue</color>
+    <color name="colorAccent">@color/violet_red</color>
+    <color name="e7go_black">@color/black</color>
+    <color name="e7go_white">@color/white</color>
+    <color name="e7go_blue">@color/pacific_blue</color>
+    <color name="e7go_gray">@color/whisper</color>
+    <color name="e7go_listitem_pressed_default">@color/pattens_blue</color>
+
+    <color name="e7go_home_text_color">@color/close_pacific_blue2</color>
+
+    <color name="e7go_gray_shadow">@color/gray_shadow</color>
+    <color name="e7go_text_light">@color/text_light</color>
+    <color name="e7go_video_function_bg_color">@color/close_white3</color>
+    <color name="e7go_transparent_color">@color/close_white</color>
+</resources>

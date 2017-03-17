@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".SupportFragment">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/wrapper_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:id="@+id/wrapper_call"
+            android:background="@drawable/selector_btn_light_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="1.0dip"
+            android:layout_weight="1.0">
+
+            <TextView
+
+                android:textSize="14.0sp"
+                android:textColor="@color/e7go_blue"
+                android:layout_gravity="center"
+                android:id="@+id/txt_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/call"
+                android:drawablePadding="4.0dip"
+                android:textAllCaps="true" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/wrapper_email"
+            android:background="@drawable/selector_btn_light_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1.0dip"
+            android:layout_weight="1.0">
+
+            <TextView
+
+                android:textSize="14.0sp"
+                android:textColor="@color/e7go_blue"
+                android:layout_gravity="center"
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_us"
+                android:drawableLeft="@drawable/mail"
+                android:drawablePadding="4.0dip"
+                android:textAllCaps="true" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_support"
+        android:background="@color/e7go_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/wrapper_buttons" />
+</RelativeLayout>

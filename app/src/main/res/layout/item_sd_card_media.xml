@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="95dp">
+
+    <ImageView
+        android:id="@+id/mediasource"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_loading_video" />
+
+    <TextureView
+        android:id="@+id/video"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="9dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="44dp"
+        android:layout_toRightOf="@id/mediasource">
+
+        <TextView
+            android:id="@+id/medianame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/e7go_black"
+            android:textSize="15sp"
+            tools:text="@string/media_description" />
+
+        <ProgressBar
+            android:id="@+id/mediaactionpb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/medianame"
+            android:layout_gravity="center_vertical"
+            android:max="100"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+    </RelativeLayout>
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/mediaactionpb"-->
+    <!--style="?android:attr/progressBarStyleLarge"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:visibility="invisible"-->
+    <!--tools:visibility="visible" />-->
+    <!--style="?android:attr/progressBarStyleSmall"-->
+
+    <ImageView
+        android:id="@+id/mediaaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_mediaaction_dl" />
+
+
+</RelativeLayout>

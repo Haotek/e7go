@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_fake_module_list">
+        <item>Video</item>
+        <item>Photo</item>
+        <item>Audio</item>
+        <item>Storage</item>
+        <item>Battery</item>
+    </string-array>
+    <string-array name="gitup_fake_module_list">
+        <item>Video</item>
+        <!--<item>Photo</item>-->
+        <item>Audio</item>
+        <item>Storage</item>
+        <item>GSensor</item>
+        <item>Battery</item>
+    </string-array>
+    <string-array name="tywin_fake_module_list">
+        <item>Video</item>
+        <item>Photo</item>
+        <item>Audio</item>
+        <item>Storage</item>
+        <item>GSensor</item>
+        <item>GPS</item>
+        <item>CarPark</item>
+        <item>TPMS</item>
+        <item>LDWS</item>
+        <item>FCWS</item>
+        <item>Battery</item>
+    </string-array>
+    <!--<integer-array name="device_iconres">-->
+    <!--<item>@mipmap/ic_module_smartplug</item>-->
+    <!--<item>@mipmap/ic_module_smartplug</item>-->
+    <!--</integer-array>-->
+</resources>

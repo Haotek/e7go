@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background_silver_light_corner">
+
+    <TextView
+        android:id="@+id/module_name"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/e7go_black"
+        android:textSize="20sp"
+        tools:text="Whatever Module" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_below="@id/module_name"
+        android:layout_height="1dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/e7go_blue" />
+
+</RelativeLayout>
+
+
+
+
+

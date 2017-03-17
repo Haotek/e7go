@@ -1,0 +1,241 @@
+<resources>
+    <!--Video-->
+    <string name="resolution">录像分辨率</string>
+    <integer-array name="module_video_resolution_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <!--<item>3</item>-->
+        <!--<item>4</item>-->
+    </integer-array>
+
+    <string-array name="module_video_resolution_texts">
+        <item>1080P 30ftp</item>
+        <!--<item>960P 30fps</item>-->
+        <item>720P 60fps</item>
+        <item>720 30fps</item>
+        <!--<item>WVGA 60fps</item>-->
+    </string-array>
+    <string name="looprecording">循环录像</string>
+    <string-array name="module_video_loopr_texts">
+        <!--<item>Off</item>-->
+        <!--<item>2 Min</item>-->
+        <!--<item>3 Min</item>-->
+        <!--<item>5 Min</item>-->
+        <!--<item>10 Min</item>-->
+        <!--<item>OFF</item>-->
+        <item>1 分鐘</item>
+        <item>3 分鐘</item>
+        <!--<item>5 Min</item>-->
+        <!--<item>10 Min</item>-->
+
+    </string-array>
+    <integer-array name="module_video_loopr_values">
+        <!--<item>0</item>-->
+        <item>1</item>
+        <item>2</item>
+        <!--<item>3</item>-->
+        <!--<item>4</item>-->
+    </integer-array>
+
+    <string name="datestamp">Date Stamp</string>
+    <string name="timelapse">Time Lapse</string>
+    <integer-array name="module_video_timelapse_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="module_video_timelapse_texts">
+        <item>Off</item>
+        <item>1 FPS</item>
+        <item>5 FPS</item>
+        <item>10 FPS</item>
+    </string-array>
+    <string name="selftimer">自動關機時間</string>
+    <integer-array name="module_video_selftimer_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="module_video_selftimer_texts">
+        <item>关闭</item>
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>20 秒</item>
+        <item>30 秒</item>
+        <item>60 秒</item>
+    </string-array>
+    <string name="fov">視野</string>
+    <integer-array name="module_video_fov_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="module_video_fov_texts">
+        <item>正常</item>
+        <item>廣角</item>
+    </string-array>
+    <string name="wdr">高动态范围成像</string>
+    <string name="ev">曝光值</string>
+    <integer-array name="module_video_ev_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+
+    <string-array name="module_video_ev_texts">
+        <item>+2</item>
+        <item>+5/3</item>
+        <item>+4/3</item>
+        <item>+1</item>
+        <item>+2/3</item>
+        <item>+1/3</item>
+        <item>0</item>
+        <item>-1/3</item>
+        <item>-2/3</item>
+        <item>-1</item>
+        <item>-4/3</item>
+        <item>-5/3</item>
+        <item>-2</item>
+    </string-array>
+    <string name="whitebalance">白平衡</string>
+    <integer-array name="module_video_whitebalance_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+
+    <string-array name="module_video_whitebalance_texts">
+        <item>自動</item>
+        <item>多雲</item>
+        <item>日光</item>
+        <item>Tungsten</item>
+        <item>Fluorescent</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Red</item>
+        <item>Light Red</item>
+        <item>Custom</item>
+    </string-array>
+    <string name="cwhitebalancer">Custom White Balance Set Red</string>
+    <string name="cwhitebalanceb">Custom White Balance Set B</string>
+    <string name="exposurelock">Exposure Lock</string>
+    <integer-array name="module_video_exposurelock_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="module_video_exposurelock_texts">
+        <item>AEL</item>
+        <item>White Balance Lock</item>
+        <item>EV and WBLock</item>
+        <item>Audio Mute</item>
+        <item>MenuButtonFunction Off</item>
+    </string-array>
+    <string name="motiondetection">移動偵測</string>
+
+    <string name="fequency">影像頻率</string>
+    <integer-array name="module_video_fequency_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="module_video_fequency_texts">
+        <item>50HZ</item>
+        <item>60HZ</item>
+    </string-array>
+    <!--Audio-->
+    <string name="recordaudio">录音</string>
+    <!--G-sensor-->
+    <string name="gsensor">重力感測器</string>
+    <integer-array name="module_gsensor_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="module_gsensor_texts">
+        <item>关闭</item>
+        <item>低靈敏</item>
+        <item>中靈敏</item>
+        <item>高靈敏</item>
+    </string-array>
+    <!--Storage-->
+    <string name="storage">TF卡</string>
+    <string name="storage_format">格式化TF卡</string>
+
+    <string name="imageresolution">影像大小</string>
+    <integer-array name="module_image_resolution_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="module_image_resolution_texts">
+        <item>1千2百萬像素</item>
+        <item>8百萬像素</item>
+        <item>5百萬像素</item>
+        <item>3百萬像素</item>
+    </string-array>
+
+    <integer-array name="module_image_timelapse_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <string-array name="module_image_timelapse_texts">
+        <item>关闭</item>
+        <item>1 秒</item>
+        <item>2 秒</item>
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>30 秒</item>
+        <item>60 秒</item>
+    </string-array>
+
+    <string name="colorstyle">色調</string>
+    <integer-array name="module_colorstyle_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="module_colorstyle_texts">
+        <item>正常</item>
+        <item>黑白</item>
+        <item>懷舊</item>
+    </string-array>
+</resources>

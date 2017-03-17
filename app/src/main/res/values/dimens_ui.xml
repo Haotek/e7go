@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="step_pager_tab_width">32dp</dimen>
+    <dimen name="step_pager_tab_height">3dp</dimen>
+    <dimen name="step_pager_tab_spacing">4dp</dimen>
+    <dimen name="list_item_padding_left">6dp</dimen>
+    <dimen name="list_item_padding_right">6dp</dimen>
+    <dimen name="list_item_height_small">48dp</dimen>
+    <dimen name="listmenu_item_background_round">12dp</dimen>
+    <dimen name="listmenu_item_background_margin">12dp</dimen>
+</resources>

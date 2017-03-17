@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <c.min.tseng.ui.SquareImageView
+        android:id="@+id/functionicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/functionstring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/e7go_black"
+        android:layout_below="@id/functionicon"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:text="Whatever Module" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

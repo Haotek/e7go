@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<solid android:color="@color/white" />-->
+    <corners
+        android:bottomLeftRadius="@dimen/listmenu_item_background_round"
+        android:bottomRightRadius="@dimen/listmenu_item_background_round"
+        android:topLeftRadius="@dimen/listmenu_item_background_round"
+        android:topRightRadius="@dimen/listmenu_item_background_round" />
+    <!--<stroke android:width="@dimen/listmenu_item_background_margin" />-->
+</shape>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="haotek_product_list">
+		<!--<item>WD6</item>-->
+		<!--<item>GitUp</item>-->
+		<!--<item>GoSafeW20</item>-->
+		<!--<item>localhost</item>-->
+		<!--<item>Trywin</item>-->
+		<!--<item>Haotek</item>-->
+		<!--<item>DV202</item>-->
+		<item>E7GO</item>
+	</string-array>
+	<string-array name="haotek_product_ssid_list">
+		<!--<item>WD6</item>-->
+		<!--<item>GITUP</item>-->
+		<!--<item>GoSafeW20</item>-->
+		<!--<item>localhost</item>-->
+		<!--<item>Trywin</item>-->
+		<!--<item>Haotek</item>-->
+		<!--<item>DV202</item>-->
+		<item>E7GO</item>
+	</string-array>
+	<string-array name="mac_list">
+		<item>28-B2-BD</item>
+		<item>28:B2:BD</item>
+		<item>34:C3:D2</item>
+		<item>34-C3-D2</item>
+	</string-array>
+	<!--<integer-array name="device_iconres">-->
+		<!--<item>@mipmap/ic_module_smartplug</item>-->
+		<!--<item>@mipmap/ic_module_smartplug</item>-->
+	<!--</integer-array>-->
+</resources>

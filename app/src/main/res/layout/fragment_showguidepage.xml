@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowGuidePageFragment">
+    <!--<TextView style="@style/WizardPageTitle" />-->
+    <c.min.tseng.ui.AutoTextureVideoView
+        android:id="@+id/show_guide_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/show_guide_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_guide_movie"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Show Guide Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

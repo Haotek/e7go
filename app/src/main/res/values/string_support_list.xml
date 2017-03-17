@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="support_packagename_list">
+        <item>tw.haotek.app.camboss</item>
+        <item>tw.haotek.app.wincam</item>
+        <item>tw.haotek.app.camboss3</item>
+        <item>tw.haotek.app.gitup</item>
+    </string-array>
+
+    <integer-array name="support_packagename_splash_bg_res">
+        <item>@drawable/splash_bg_camboss</item>
+        <item>@drawable/splash_bg_wincam</item>
+        <item>@drawable/splash_bg_camboss</item>
+        <item>@drawable/splash_bg_camboss</item>
+    </integer-array>
+
+    <integer-array name="support_packagename_icon_res">
+        <item>@drawable/ic_launcher_camboss</item>
+        <item>@drawable/ic_launcher_wincam</item>
+        <item>@drawable/ic_launcher_camboss</item>
+
+    </integer-array>
+
+    <integer-array name="support_packagename_navigation_header">
+        <!--int VISIBLE = 0x00000000;-->
+        <!--int INVISIBLE = 0x00000004;-->
+        <!--int GONE = 0x00000008;-->
+        <item>0x00000000</item>
+        <item>0x00000000</item>
+        <item>0x00000000</item>
+        <item>0x00000008</item>
+    </integer-array>
+</resources>

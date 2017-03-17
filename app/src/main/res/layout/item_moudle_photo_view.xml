@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/resolutionlayout"
+        layout="@layout/item_module_spinner_view" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <include
+        android:id="@+id/datestamplayout"
+        layout="@layout/item_function_switch_view" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <include
+        android:id="@+id/timelapselayout"
+        layout="@layout/item_function_spinner_view" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <include
+        android:id="@+id/evlayout"
+        layout="@layout/item_function_spinner_view" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <include
+        android:id="@+id/colorstylelayout"
+        layout="@layout/item_function_spinner_view" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <include
+        android:id="@+id/whitebalancelayout"
+        layout="@layout/item_function_spinner_view" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <include
+        android:id="@+id/customwblayout"
+        layout="@layout/item_function_spinner_view" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <include
+        android:id="@+id/customwbrlayout"
+        layout="@layout/item_function_spinner_view" />
+
+</LinearLayout>

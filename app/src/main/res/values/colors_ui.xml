@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!--http://www.htmlcsscolor.com/hex-->
+<resources>
+    <color name="step_pager_previous_tab_color">@color/summer_sky</color>
+    <color name="step_pager_selected_tab_color">@color/close_pacific_blue</color>
+    <color name="step_pager_selected_last_tab_color">@color/close_christi</color>
+    <color name="step_pager_next_tab_color">@color/close_white</color>
+    <color name="review_green">@color/close_christi</color>
+</resources>

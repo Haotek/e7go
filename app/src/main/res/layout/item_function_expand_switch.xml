@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_silver_light_corner">
+    <!--android:padding="10dp"-->
+
+    <TextView
+        android:id="@+id/function"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/e7go_black"
+        android:textSize="14sp"
+        tools:text="Function" />
+    <!--android:textSize="20sp"-->
+
+    <ImageButton
+        android:id="@+id/expand"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/e7go_white"
+        android:scaleType="fitEnd"
+        android:src="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/spliteline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/function"
+        android:layout_marginTop="18dp"
+        android:background="@color/e7go_blue" />
+
+    <include
+        layout="@layout/item_function_switch_view"
+        android:id="@+id/switchlayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_below="@id/spliteline" />
+</RelativeLayout>

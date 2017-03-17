@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maindevicelistlayout"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="?android:attr/selectableItemBackground">
+    <!--android:layout_height="@dimen/devicelist_item_height"-->
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="23dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_cloud_mode"
+        android:visibility="invisible"
+        tools:src="@drawable/ic_cloud_mode"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/cloud"
+        android:paddingLeft="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_e7go_device"
+        tools:src="@drawable/ic_e7go_device" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/icon"
+        android:paddingLeft="26dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            tools:text="GitUp" />
+
+        <TextView
+            android:id="@+id/mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:visibility="gone"
+            tools:text="11:22:33:44:55:66"
+            tools:visibility="visible" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/ic_state_off"
+        android:visibility="visible"
+        tools:src="@drawable/ic_state_off"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/cloudsetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@android:drawable/ic_menu_info_details"
+        android:visibility="invisible"
+        tools:src="@android:drawable/ic_dialog_info"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
+
+
+

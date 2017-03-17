@@ -1,0 +1,79 @@
+<resources>
+    <string name="oem_app_name">e7go</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Nav-->
+    <string name="home">主頁</string>
+    <string name="web">e7go網站</string>
+    <string name="product">產品</string>
+    <string name="support">支持</string>
+    <string name="info">資訊</string>
+    <!--Start-->
+    <string name="start_now">立即開始</string>
+    <!--Login-->
+    <string name="login">登陸</string>
+    <string name="login_des">你可以選擇以下方式登錄</string>
+    <string name="login_wechat">微信登陸</string>
+    <string name="login_qq">QQ登錄</string>
+    <string name="login_weibo">微博登錄</string>
+    <string name="login_tryit">先看看</string>
+    <!--Home-->
+
+    <string name="connect_to_device">連接我的e7go</string>
+    <string name="media_description">我的媒體</string>
+    <string name="new_media">最新視頻</string>
+    <string name="video_subdescription">精選視頻</string>
+
+    <!--choose a device-->
+    <string name="choose_a_device">Choose a device</string>
+    <string name="connect_to_e7go">已設定連結的e7go</string>
+    <string name="add_new_device">Add New Device</string>
+
+    <!--My media-->
+
+    <string name="remote_media">媒體檔@SD</string>
+    <string name="video_folder">視頻資料夾</string>
+    <string name="emergency_folder">緊急事件資料夾</string>
+    <string name="collection_folder">我的收藏</string>
+
+    <!--wizardpager-->
+    <string name="show_guide">Guide</string>
+    <string name="choice_ap_mode_device">Choice Device</string>
+    <string name="review">Review</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="submit_confirm_message">Place the order with the deli? You will receive an email confirmation.</string>
+    <string name="submit_confirm_button">Place order</string>
+    <string name="finish">Submit order</string>
+    <!--Living-->
+    <string name="normal_pic">Take Picture</string>
+    <string name="timer_pic">Timer Picture</string>
+    <string name="delay_pic">Delay Picture</string>
+    <string name="motionrack">Motion Track</string>
+    <string name="normal_rec">Take Video</string>
+    <string name="delay_rec">Delay Video</string>
+    <string name="show_toast_photo">Take Picture %1$s.</string>
+
+
+    <!--Support-->
+    <string name="email_us">email us</string>
+
+    <!--Setting-->
+    <string name="version">Version : </string>
+    <string name="synctime">Sync Time</string>
+    <string name="aplist">AP WiFi List</string>
+    <string name="rfpairing">RF Pairing</string>
+    <string name="reboot">Reboot e7go</string>
+    <string name="factorydefault">Factory Default</string>
+    <string name="startsynctime">Start Sync Time</string>
+    <string name="startpair">Start Pairing Control</string>
+    <string name="rebootnow">Reboot Now</string>
+
+    <!--debug-->
+    <string name="share">Share</string>
+    <string name="send">SEND</string>
+
+</resources>

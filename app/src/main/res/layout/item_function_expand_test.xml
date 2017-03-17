@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include xmlns:android="http://schemas.android.com/apk/res/android"
+    layout="@layout/item_function_expand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <!--<merge xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools">-->
+
+    <!--<include--><!--layout="@layout/item_function_expand"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent" />-->
+
+    <!--<include--><!--layout="@layout/item_function_button_view"--><!--android:layout_width="match_parent"--><!--android:layout_height="60dp"--><!--android:layout_marginTop="60dp"--><!--android:background="@color/white"--><!--android:paddingLeft="@dimen/activity_horizontal_margin"--><!--android:paddingRight="@dimen/activity_horizontal_margin"--><!--android:visibility="gone"--><!--tools:visibility="visible" />--><!--</merge>-->

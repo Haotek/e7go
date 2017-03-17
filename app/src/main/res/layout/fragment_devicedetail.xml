@@ -1,0 +1,8 @@
+<!--<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:id="@+id/devicedetaillayout"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@color/gitup_white"--><!--tools:context=".DeviceDetailFragment"></android.support.v7.widget.RecyclerView>-->
+<ListView
+    android:id="@android:id/list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerHeight="@dimen/list_divider_height"
+    android:animateLayoutChanges="true" />

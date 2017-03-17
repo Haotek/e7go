@@ -1,0 +1,241 @@
+<resources>
+    <!--Video-->
+    <string name="resolution">Video Resolution</string>
+    <integer-array name="module_video_resolution_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <!--<item>3</item>-->
+        <!--<item>4</item>-->
+    </integer-array>
+
+    <string-array name="module_video_resolution_texts">
+        <item>1080P 30ftp</item>
+        <!--<item>960P 30fps</item>-->
+        <item>720P 60fps</item>
+        <item>720 30fps</item>
+        <!--<item>WVGA 60fps</item>-->
+    </string-array>
+    <string name="looprecording">Loop Recording</string>
+    <string-array name="module_video_loopr_texts">
+        <!--<item>Off</item>-->
+        <!--<item>2 Min</item>-->
+        <!--<item>3 Min</item>-->
+        <!--<item>5 Min</item>-->
+        <!--<item>10 Min</item>-->
+        <!--<item>OFF</item>-->
+        <item>1 Min</item>
+        <item>3 Min</item>
+        <!--<item>5 Min</item>-->
+        <!--<item>10 Min</item>-->
+
+    </string-array>
+    <integer-array name="module_video_loopr_values">
+        <!--<item>0</item>-->
+        <item>1</item>
+        <item>2</item>
+        <!--<item>3</item>-->
+        <!--<item>4</item>-->
+    </integer-array>
+
+    <string name="datestamp">Date Stamp</string>
+    <string name="timelapse">Time Lapse</string>
+    <integer-array name="module_video_timelapse_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="module_video_timelapse_texts">
+        <item>Off</item>
+        <item>1 FPS</item>
+        <item>5 FPS</item>
+        <item>10 FPS</item>
+    </string-array>
+    <string name="selftimer">Self Timer</string>
+    <integer-array name="module_video_selftimer_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="module_video_selftimer_texts">
+        <item>OFF</item>
+        <item>5 Sec</item>
+        <item>10 Sec</item>
+        <item>20 Sec</item>
+        <item>30 Sec</item>
+        <item>60 Sec</item>
+    </string-array>
+    <string name="fov">FOV</string>
+    <integer-array name="module_video_fov_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="module_video_fov_texts">
+        <item>Narrow Angle</item>
+        <item>Wide Angle</item>
+    </string-array>
+    <string name="wdr">WDR</string>
+    <string name="ev">EV</string>
+    <integer-array name="module_video_ev_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+
+    <string-array name="module_video_ev_texts">
+        <item>+2</item>
+        <item>+5/3</item>
+        <item>+4/3</item>
+        <item>+1</item>
+        <item>+2/3</item>
+        <item>+1/3</item>
+        <item>0</item>
+        <item>-1/3</item>
+        <item>-2/3</item>
+        <item>-1</item>
+        <item>-4/3</item>
+        <item>-5/3</item>
+        <item>-2</item>
+    </string-array>
+    <string name="whitebalance">White Balance</string>
+    <integer-array name="module_video_whitebalance_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+
+    <string-array name="module_video_whitebalance_texts">
+        <item>Auto</item>
+        <item>Cloudy</item>
+        <item>Daylight</item>
+        <item>Tungsten</item>
+        <item>Fluorescent</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Red</item>
+        <item>Light Red</item>
+        <item>Custom</item>
+    </string-array>
+    <string name="cwhitebalancer">Custom White Balance Set Red</string>
+    <string name="cwhitebalanceb">Custom White Balance Set B</string>
+    <string name="exposurelock">Exposure Lock</string>
+    <integer-array name="module_video_exposurelock_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="module_video_exposurelock_texts">
+        <item>AEL</item>
+        <item>White Balance Lock</item>
+        <item>EV and WBLock</item>
+        <item>Audio Mute</item>
+        <item>MenuButtonFunction Off</item>
+    </string-array>
+    <string name="motiondetection">Motion Detection</string>
+
+    <string name="fequency">Fequency</string>
+    <integer-array name="module_video_fequency_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="module_video_fequency_texts">
+        <item>50HZ</item>
+        <item>60HZ</item>
+    </string-array>
+    <!--Audio-->
+    <string name="recordaudio">Record Audio</string>
+    <!--G-sensor-->
+    <string name="gsensor">G-Sensor</string>
+    <integer-array name="module_gsensor_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="module_gsensor_texts">
+        <item>Off</item>
+        <item>Low Sensitivity</item>
+        <item>Middle Sensitivity</item>
+        <item>High Sensitivity</item>
+    </string-array>
+    <!--Storage-->
+    <string name="storage">SD Card</string>
+    <string name="storage_format">Format SD</string>
+
+    <string name="imageresolution">Image Size</string>
+    <integer-array name="module_image_resolution_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="module_image_resolution_texts">
+        <item>12MP</item>
+        <item>8MP</item>
+        <item>5MP</item>
+        <item>3MP</item>
+    </string-array>
+
+    <integer-array name="module_image_timelapse_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <string-array name="module_image_timelapse_texts">
+        <item>Off</item>
+        <item>1 Sec</item>
+        <item>2 Sec</item>
+        <item>5 Sec</item>
+        <item>10 Sec</item>
+        <item>30 Sec</item>
+        <item>60 Sec</item>
+    </string-array>
+
+    <string name="colorstyle">Color</string>
+    <integer-array name="module_colorstyle_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="module_colorstyle_texts">
+        <item>Normal</item>
+        <item>Black &amp; White</item>
+        <item>Sepia</item>
+    </string-array>
+</resources>
